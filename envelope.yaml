@@ -1,7 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: envelope-parasol-catalog
+  name: parasol-catalog-all
   description: A collection of Parasol components
 spec:
-  targets:
+  type: url
+  target: ./**/catalog-info.yaml
