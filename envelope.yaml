@@ -4,4 +4,5 @@ metadata:
   name: envelope-parasol-catalog
   description: A collection of Parasol components
 spec:
-  targets:
+  type: url
+  target: ./**/catalog-info.yaml
